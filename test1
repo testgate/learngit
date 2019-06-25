@@ -1,9 +1,6 @@
-just a git test!
-haha
-kk
-mmm
-0033add branc
-mm
-99
-add branch at master
-33add branch featu
+1.tar -zxvf 命令解压 *.tar.gz遇到问题：
+gzip: stdin: not in gzip format
+tar: Child returned status 1
+tar: Error is not recoverable: exiting now
+
+原因是，压缩包没有使用gzip的压缩，应该使用命令tar -zvf
